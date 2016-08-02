@@ -3,13 +3,6 @@
   "description": "Assets used in various A-Frame examples and boilerplates.",
   "version": "0.3.0",
   "license": "MIT",
-  "scripts": {
-    "deploy": "ghpages",
-    "ghpages": "ghpages"
-  },
-  "devDependencies": {
-    "ghpages": "0.0.3"
-  },
   "keywords": [
     "aframe",
     "aframe-assets",

@@ -3,8 +3,7 @@
 Assets (e.g,, models, images, data files, sounds) used in various A-Frame
 examples and boilerplates.
 
-These assets are hosted at `https://aframevr.github.io/assets/` (GitHub Pages)
-with CORS enabled.
+These assets are hosted at `https://assets.github.io/` with CORS enabled.
 
 ## License
 

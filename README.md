@@ -8,18 +8,16 @@ are backed by Cloudflare and Fastly.
 
 ## Referencing an Asset
 
-Find an asset you want to use. And prepend it with the
-`https://cdn.aframe.io/` domain. For example, if you wanted
-`360-video-boilerplate/video/city.mp4`, you would use
-`https://cdn.aframe.io/360-video-boilerplate/video/city.mp4`.
-
-Make sure to set `crossorigin` on your elements:
+Find an asset you want to use. And prepend it with the `https://cdn.aframe.io/`
+domain. For example, if you wanted `360-video-boilerplate/video/city.mp4`, you
+would use `https://cdn.aframe.io/360-video-boilerplate/video/city.mp4`.
 
 ```html
 <a-scene>
-  <a-assets>
-    <video id="myVideo" crossorigin src="https://cdn.aframe.io/360-video-boilerplate/video/city.mp4"></video>
-  </a-assets>
+ <a-assets>
+  <video id="cityVideo" src="https://cdn.aframe.io/360-video-boilerplate/video/city.mp4">
+ </a-assets>
+ <a-videopshere src="#cityVideo"></a-videosphere>
 </a-scene>
 ```
 

@@ -283,11 +283,11 @@
     },
     "images":[{
         "name":"controller-diffuse.jpg",
-        "url":"../images/controller-diffuse.jpg",
+        "url":"https://cdn.aframe.io/a-painter/images/controller-diffuse.jpg",
         "uuid":"2965B3C8-EF73-3474-B988-09B4BEA2701B"
     },{
         "name":"controller-specular.jpg",
-        "url":"../images/controller-specular.jpg",
+        "url":"https://cdn.aframe.io/a-painter/images/controller-specular.jpg",
         "uuid":"FCC62F14-407C-36B3-A622-59728D8015C5"
     }],
     "metadata":{

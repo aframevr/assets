@@ -209,7 +209,7 @@
             "receiveShadow":true,
             "geometry":"9EAFE12A-3FB5-3914-900C-71B23623DBB3"
         },{
-            "name":"grip-left",
+            "name":"leftgrip",
             "uuid":"49A71E3B-80CF-3751-B970-8FA0CE8C5F98",
             "matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
             "visible":true,
@@ -219,7 +219,7 @@
             "receiveShadow":true,
             "geometry":"7FED301F-6CEB-3548-B2C2-9EF2D0309610"
         },{
-            "name":"menu",
+            "name":"menubutton",
             "uuid":"2DC3232F-E4B3-39C4-B5E5-470B6040257C",
             "matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
             "visible":true,
@@ -229,7 +229,7 @@
             "receiveShadow":true,
             "geometry":"91836097-6491-3BDC-902D-C58456145EC5"
         },{
-            "name":"grip-right",
+            "name":"rightgrip",
             "uuid":"56D2DD84-6464-3901-90BD-452A48472F32",
             "matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
             "visible":true,
@@ -239,7 +239,7 @@
             "receiveShadow":true,
             "geometry":"B9A75859-59A8-37E9-A9F8-6730D25125A4"
         },{
-            "name":"system",
+            "name":"systembutton",
             "uuid":"E0168B8E-D36E-302D-935B-E270AFCF04DD",
             "matrix":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
             "visible":true,

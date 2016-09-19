@@ -86,12 +86,12 @@
         "sourceFile":"apainter_controller.blend"
     },
     "images":[{
-        "url":"https://cdn.aframe.io/a-painter/images/controller-diffuse.jpg",
-        "name":"apainter_controller_diffuse.jpg",
+        "url":"https://cdn.aframe.io/a-painter/images/controller-diffuse.png",
+        "name":"apainter_controller_diffuse.png",
         "uuid":"2965B3C8-EF73-3474-B988-09B4BEA2701B"
     },{
-        "url":"https://cdn.aframe.io/a-painter/images/controller-specular.jpg",
-        "name":"apainter_controller_specular.jpg",
+        "url":"https://cdn.aframe.io/a-painter/images/controller-specular.png",
+        "name":"apainter_controller_specular.png",
         "uuid":"FCC62F14-407C-36B3-A622-59728D8015C5"
     },{
         "url":"https://cdn.aframe.io/a-painter/images/messages.png",

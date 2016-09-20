@@ -10,5 +10,5 @@ Ns 10.0000
 	Kd 1.0 1.0 1.0
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka images/logo.png
-	map_Kd images/logo.png
+	map_Ka ../images/logo.png
+	map_Kd ../images/logo.png

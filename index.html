@@ -107,6 +107,10 @@
         background-color: #069;
         color: #fff;
       }
+      .btn[disabled],
+      .btn[disabled]:hover {
+        background-color: #AAA
+      }
       .files {
         background: rgba(255,255,255,0.1);
         box-shadow: 0 10px 20px inset red;
@@ -149,7 +153,8 @@
         </div>
         <h1 class="masthead__wordmark"><span class="masthead__bracket">&lt;</span>A-Frame<span class="masthead__bracket">&gt;</span></h1>
         <p class="masthead__slogan">Asset Uploader</p>
-        <p><button id="uploadButton" class="btn btn--upload">Upload</button></p>
+        <p><button id="uploadButton" class="btn btn--upload" disabled>Upload</button></p>
+        <p>Sorry, the Uploader is currently not working. Please try another file host.</p>
         <ul id="filesList" class="files"></ul>
       </div>
     </main>

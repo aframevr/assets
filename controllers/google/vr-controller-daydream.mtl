@@ -1,7 +1,7 @@
-# Blender MTL File: 'oculus-touch-controller.right.blend'
-# Material Count: 7
+# Blender MTL File: 'daydream4.blend'
+# Material Count: 6
 
-newmtl body
+newmtl MatAppButton
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -10,8 +10,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd vr_controller_daydream_tex.png
 
-newmtl buttonA
+newmtl MatBody
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -20,8 +21,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd vr_controller_daydream_tex.png
 
-newmtl buttonB
+newmtl MatHomeButton
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -30,8 +32,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd vr_controller_daydream_tex.png
 
-newmtl buttonHand
+newmtl MatTouchpad
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -40,8 +43,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd vr_controller_daydream_tex.png
 
-newmtl buttonHome
+newmtl MatVolDownBut
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -50,8 +54,9 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd vr_controller_daydream_tex.png
 
-newmtl buttonTrigger
+newmtl MatVolUpBut
 Ns 96.078431
 Ka 1.000000 1.000000 1.000000
 Kd 0.640000 0.640000 0.640000
@@ -60,13 +65,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-
-newmtl stick
-Ns 96.078431
-Ka 1.000000 1.000000 1.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.500000 0.500000 0.500000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 2
+map_Kd vr_controller_daydream_tex.png

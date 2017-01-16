@@ -10,6 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd external_controller01_col.png
 
 newmtl buttonA
 Ns 96.078431
@@ -20,6 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd external_controller01_col.png
 
 newmtl buttonB
 Ns 96.078431
@@ -30,6 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd external_controller01_col.png
 
 newmtl buttonHand
 Ns 96.078431
@@ -40,6 +43,8 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd external_controller01_col.png
+
 
 newmtl buttonHome
 Ns 96.078431
@@ -50,6 +55,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd external_controller01_col.png
 
 newmtl buttonTrigger
 Ns 96.078431
@@ -60,6 +66,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd external_controller01_col.png
 
 newmtl stick
 Ns 96.078431
@@ -70,3 +77,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd external_controller01_col.png

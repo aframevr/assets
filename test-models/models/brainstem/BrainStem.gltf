@@ -2079,1776 +2079,2192 @@
             "uri": "BrainStem.bin"
         }
     },
+    "extensionsUsed": [
+        "KHR_materials_common"
+    ],
     "materials": {
         "Stem-effect": {
-            "name": "Stem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.541176,
-                    0.541176,
-                    0.541176,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.541176,
+                            0.541176,
+                            0.541176,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "Stem"
         },
         "TubeStem-effect": {
-            "name": "TubeStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.0784314,
-                    0.184314,
-                    0.207843,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.0784314,
+                            0.184314,
+                            0.207843,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "TubeStem"
         },
         "ankleBracketStem-effect": {
-            "name": "ankleBracketStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.482353,
-                    0.435294,
-                    0.360784,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.175,
-                    0.175,
-                    0.175,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.482353,
+                            0.435294,
+                            0.360784,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.175,
+                            0.175,
+                            0.175,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "ankleBracketStem"
         },
         "ankleStem-effect": {
-            "name": "ankleStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "ankleStem"
         },
         "armBoltStem-effect": {
-            "name": "armBoltStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.2,
-                    0.2,
-                    0.2,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.175,
-                    0.175,
-                    0.175,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.2,
+                            0.2,
+                            0.2,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.175,
+                            0.175,
+                            0.175,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "armBoltStem"
         },
         "armFilletStem-effect": {
-            "name": "armFilletStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.175,
-                    0.175,
-                    0.175,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.175,
+                            0.175,
+                            0.175,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "armFilletStem"
         },
         "armPlateStem-effect": {
-            "name": "armPlateStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.509804,
-                    0.458824,
-                    0.376471,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.509804,
+                            0.458824,
+                            0.376471,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "armPlateStem"
         },
         "armTrussStem-effect": {
-            "name": "armTrussStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.513726,
-                    0.454902,
-                    0.372549,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.175,
-                    0.175,
-                    0.175,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.513726,
+                            0.454902,
+                            0.372549,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.175,
+                            0.175,
+                            0.175,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "armTrussStem"
         },
         "bStem-effect": {
-            "name": "bStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.0196078,
-                    0.164706,
-                    0.2,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.0196078,
+                            0.164706,
+                            0.2,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "bStem"
         },
         "barStem-effect": {
-            "name": "barStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0,
-                    0.192157,
-                    0.243137,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0,
+                            0.192157,
+                            0.243137,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "barStem"
         },
         "barrel1Stem-effect": {
-            "name": "barrel1Stem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.352941,
-                    0.352941,
-                    0.352941,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.352941,
+                            0.352941,
+                            0.352941,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "barrel1Stem"
         },
         "barrel2Stem-effect": {
-            "name": "barrel2Stem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.12549,
-                    0.12549,
-                    0.12549,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.175,
-                    0.175,
-                    0.175,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.12549,
+                            0.12549,
+                            0.12549,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.175,
+                            0.175,
+                            0.175,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "barrel2Stem"
         },
         "bayonetStem-effect": {
-            "name": "bayonetStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.988235,
-                    0.988235,
-                    0.988235,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.988235,
+                            0.988235,
+                            0.988235,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "bayonetStem"
         },
         "boltStem-effect": {
-            "name": "boltStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.290196,
-                    0.290196,
-                    0.290196,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174991,
-                    0.174991,
-                    0.174991,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.290196,
+                            0.290196,
+                            0.290196,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174991,
+                            0.174991,
+                            0.174991,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "boltStem"
         },
         "bracketStem-effect": {
-            "name": "bracketStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.384314,
-                    0.34902,
-                    0.282353,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.384314,
+                            0.34902,
+                            0.282353,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "bracketStem"
         },
         "calfCoverStem-effect": {
-            "name": "calfCoverStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.356863,
-                    0.32549,
-                    0.278431,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.356863,
+                            0.32549,
+                            0.278431,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "calfCoverStem"
         },
         "calfStem-effect": {
-            "name": "calfStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.682353,
-                    0.635294,
-                    0.533333,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.682353,
+                            0.635294,
+                            0.533333,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "calfStem"
         },
         "canInnerStem-effect": {
-            "name": "canInnerStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.360784,
-                    0.360784,
-                    0.360784,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.360784,
+                            0.360784,
+                            0.360784,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "canInnerStem"
         },
         "canisterInStem-effect": {
-            "name": "canisterInStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.498039,
-                    0.498039,
-                    0.498039,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.498039,
+                            0.498039,
+                            0.498039,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "canisterInStem"
         },
         "canisterOutStem-effect": {
-            "name": "canisterOutStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.537255,
-                    0.537255,
-                    0.537255,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.175,
-                    0.175,
-                    0.175,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.537255,
+                            0.537255,
+                            0.537255,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.175,
+                            0.175,
+                            0.175,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "canisterOutStem"
         },
         "componentStem-effect": {
-            "name": "componentStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.521569,
-                    0.462745,
-                    0.376471,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.521569,
+                            0.462745,
+                            0.376471,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "componentStem"
         },
         "componentsStem-effect": {
-            "name": "componentsStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.745098,
-                    0.45098,
-                    0,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174991,
-                    0.174991,
-                    0.174991,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.745098,
+                            0.45098,
+                            0,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174991,
+                            0.174991,
+                            0.174991,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "componentsStem"
         },
         "coverStem-effect": {
-            "name": "coverStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.482353,
-                    0.435294,
-                    0.360784,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.25,
-                    0.25,
-                    0.25,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.482353,
+                            0.435294,
+                            0.360784,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.25,
+                            0.25,
+                            0.25,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "coverStem"
         },
         "discInStem-effect": {
-            "name": "discInStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.462745,
-                    0.407843,
-                    0.329412,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.462745,
+                            0.407843,
+                            0.329412,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "discInStem"
         },
         "discStem-effect": {
-            "name": "discStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.188235,
-                    0.156863,
-                    0.121569,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.188235,
+                            0.156863,
+                            0.121569,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "discStem"
         },
         "exhaustGunStem-effect": {
-            "name": "exhaustGunStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.505882,
-                    0.505882,
-                    0.505882,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.505882,
+                            0.505882,
+                            0.505882,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "exhaustGunStem"
         },
         "eyeRimStem-effect": {
-            "name": "eyeRimStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "eyeRimStem"
         },
         "eyeStem-effect": {
-            "name": "eyeStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.988235,
-                    0.988235,
-                    0.988235,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.25,
-                    0.25,
-                    0.25,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.988235,
+                            0.988235,
+                            0.988235,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.25,
+                            0.25,
+                            0.25,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "eyeStem"
         },
         "filletStem-effect": {
-            "name": "filletStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.988235,
-                    0.988235,
-                    0.988235,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.988235,
+                            0.988235,
+                            0.988235,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "filletStem"
         },
         "filterInStem-effect": {
-            "name": "filterInStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.359991,
-                    0.359991,
-                    0.359991,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.359991,
+                            0.359991,
+                            0.359991,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "filterInStem"
         },
         "filterOutStem-effect": {
-            "name": "filterOutStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.419608,
-                    0.419608,
-                    0.411765,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.419608,
+                            0.419608,
+                            0.411765,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "filterOutStem"
         },
         "footFlangeStem-effect": {
-            "name": "footFlangeStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.968628,
-                    0.968628,
-                    0.968628,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.968628,
+                            0.968628,
+                            0.968628,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "footFlangeStem"
         },
         "footStem-effect": {
-            "name": "footStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.0196078,
-                    0.145098,
-                    0.176471,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.0196078,
+                            0.145098,
+                            0.176471,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "footStem"
         },
         "frameInStem-effect": {
-            "name": "frameInStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.168627,
-                    0.141176,
-                    0.109804,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.17451,
-                    0.17451,
-                    0.17451,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.168627,
+                            0.141176,
+                            0.109804,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.17451,
+                            0.17451,
+                            0.17451,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "frameInStem"
         },
         "headCaseStem-effect": {
-            "name": "headCaseStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.862745,
-                    0.65098,
-                    0.243137,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.862745,
+                            0.65098,
+                            0.243137,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "headCaseStem"
         },
         "headFilletStem-effect": {
-            "name": "headFilletStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.254902,
-                    0.254902,
-                    0.254902,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.254902,
+                            0.254902,
+                            0.254902,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "headFilletStem"
         },
         "headGrillStem-effect": {
-            "name": "headGrillStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.709804,
-                    0.541176,
-                    0.254902,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.709804,
+                            0.541176,
+                            0.254902,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "headGrillStem"
         },
         "headHornStem-effect": {
-            "name": "headHornStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.827451,
-                    0.517647,
-                    0.0627451,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.827451,
+                            0.517647,
+                            0.0627451,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "headHornStem"
         },
         "hexStem-effect": {
-            "name": "hexStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.243137,
-                    0.196078,
-                    0.156863,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.243137,
+                            0.196078,
+                            0.156863,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "hexStem"
         },
         "hipSphereStem-effect": {
-            "name": "hipSphereStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.262745,
-                    0.262745,
-                    0.262745,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.262745,
+                            0.262745,
+                            0.262745,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "hipSphereStem"
         },
         "intestineInStem-effect": {
-            "name": "intestineInStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.207294,
-                    0.19881,
-                    0.709987,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.207294,
+                            0.19881,
+                            0.709987,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "intestineInStem"
         },
         "intestineOutStem-effect": {
-            "name": "intestineOutStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.431373,
-                    0.2,
-                    0,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.431373,
+                            0.2,
+                            0,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "intestineOutStem"
         },
         "knee2Stem-effect": {
-            "name": "knee2Stem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "knee2Stem"
         },
         "kneeGuardStem-effect": {
-            "name": "kneeGuardStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.498039,
-                    0.45098,
-                    0.380392,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.498039,
+                            0.45098,
+                            0.380392,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "kneeGuardStem"
         },
         "kneeStem-effect": {
-            "name": "kneeStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.482353,
-                    0.435294,
-                    0.360784,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.482353,
+                            0.435294,
+                            0.360784,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "kneeStem"
         },
         "neckSinkStem-effect": {
-            "name": "neckSinkStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.917647,
-                    0.686275,
-                    0.270588,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.917647,
+                            0.686275,
+                            0.270588,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "neckSinkStem"
         },
         "off-effect": {
-            "name": "off",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.670588,
-                    0.407843,
-                    0.0588235,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.670588,
+                            0.407843,
+                            0.0588235,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "off"
         },
         "pinStem-effect": {
-            "name": "pinStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.268193,
-                    0.258503,
-                    0.549996,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.268193,
+                            0.258503,
+                            0.549996,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "pinStem"
         },
         "pipeStem-effect": {
-            "name": "pipeStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.454902,
-                    0.219608,
-                    0.0196078,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.454902,
+                            0.219608,
+                            0.0196078,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "pipeStem"
         },
         "plugStem-effect": {
-            "name": "plugStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.458824,
-                    0.458824,
-                    0.458824,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.458824,
+                            0.458824,
+                            0.458824,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "plugStem"
         },
         "radiatorStem-effect": {
-            "name": "radiatorStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.764706,
-                    0.486275,
-                    0.0784314,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.764706,
+                            0.486275,
+                            0.0784314,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "radiatorStem"
         },
         "rpgStem-effect": {
-            "name": "rpgStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "rpgStem"
         },
         "shockInStem-effect": {
-            "name": "shockInStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0,
-                    0.482353,
-                    0.870588,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0,
+                            0.482353,
+                            0.870588,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "shockInStem"
         },
         "shockOutStem-effect": {
-            "name": "shockOutStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0,
-                    0.266667,
-                    0.337255,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0,
+                            0.266667,
+                            0.337255,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "shockOutStem"
         },
         "shoulderBStem-effect": {
-            "name": "shoulderBStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.0235294,
-                    0.117647,
-                    0.141176,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.175,
-                    0.175,
-                    0.175,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.0235294,
+                            0.117647,
+                            0.141176,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.175,
+                            0.175,
+                            0.175,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "shoulderBStem"
         },
         "shoulderPodStem-effect": {
-            "name": "shoulderPodStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    1,
-                    1,
-                    1,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.175,
-                    0.175,
-                    0.175,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.175,
+                            0.175,
+                            0.175,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "shoulderPodStem"
         },
         "skeletonStem-effect": {
-            "name": "skeletonStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0,
-                    0.270588,
-                    0.243137,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174975,
-                    0.174975,
-                    0.174975,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0,
+                            0.270588,
+                            0.243137,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174975,
+                            0.174975,
+                            0.174975,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "skeletonStem"
         },
         "thighPadStem-effect": {
-            "name": "thighPadStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.498039,
-                    0.45098,
-                    0.380392,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174998,
-                    0.174998,
-                    0.174998,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.498039,
+                            0.45098,
+                            0.380392,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174998,
+                            0.174998,
+                            0.174998,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "thighPadStem"
         },
         "thighStem-effect": {
-            "name": "thighStem",
-            "technique": "technique0",
-            "values": {
-                "ambient": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "diffuse": [
-                    0.898039,
-                    0.898039,
-                    0.898039,
-                    1
-                ],
-                "emission": [
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "specular": [
-                    0.174994,
-                    0.174994,
-                    0.174994,
-                    1
-                ]
-            }
+            "extensions": {
+                "KHR_materials_common": {
+                    "doubleSided": false,
+                    "jointCount": 18,
+                    "technique": "PHONG",
+                    "transparent": false,
+                    "values": {
+                        "ambient": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "diffuse": [
+                            0.898039,
+                            0.898039,
+                            0.898039,
+                            1
+                        ],
+                        "emission": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ],
+                        "specular": [
+                            0.174994,
+                            0.174994,
+                            0.174994,
+                            1
+                        ]
+                    }
+                }
+            },
+            "name": "thighStem"
         }
     },
     "meshes": {
@@ -5050,34 +5466,12 @@
             ]
         }
     },
-    "programs": {
-        "program_0": {
-            "attributes": [
-                "a_joint",
-                "a_normal",
-                "a_position",
-                "a_weight"
-            ],
-            "fragmentShader": "BrainStem0FS",
-            "vertexShader": "BrainStem0VS"
-        }
-    },
     "scene": "defaultScene",
     "scenes": {
         "defaultScene": {
             "nodes": [
                 "node_21"
             ]
-        }
-    },
-    "shaders": {
-        "BrainStem0FS": {
-            "type": 35632,
-            "uri": "BrainStem0FS.glsl"
-        },
-        "BrainStem0VS": {
-            "type": 35633,
-            "uri": "BrainStem0VS.glsl"
         }
     },
     "skins": {
@@ -5122,80 +5516,6 @@
                 "lToe"
             ],
             "name": "Poser_scene_root"
-        }
-    },
-    "techniques": {
-        "technique0": {
-            "attributes": {
-                "a_joint": "joint",
-                "a_normal": "normal",
-                "a_position": "position",
-                "a_weight": "weight"
-            },
-            "parameters": {
-                "ambient": {
-                    "type": 35666
-                },
-                "diffuse": {
-                    "type": 35666
-                },
-                "emission": {
-                    "type": 35666
-                },
-                "joint": {
-                    "semantic": "JOINT",
-                    "type": 35666
-                },
-                "jointMat": {
-                    "count": 18,
-                    "semantic": "JOINTMATRIX",
-                    "type": 35676
-                },
-                "modelViewMatrix": {
-                    "semantic": "MODELVIEW",
-                    "type": 35676
-                },
-                "normal": {
-                    "semantic": "NORMAL",
-                    "type": 35665
-                },
-                "normalMatrix": {
-                    "semantic": "MODELVIEWINVERSETRANSPOSE",
-                    "type": 35675
-                },
-                "position": {
-                    "semantic": "POSITION",
-                    "type": 35665
-                },
-                "projectionMatrix": {
-                    "semantic": "PROJECTION",
-                    "type": 35676
-                },
-                "specular": {
-                    "type": 35666
-                },
-                "weight": {
-                    "semantic": "WEIGHT",
-                    "type": 35666
-                }
-            },
-            "program": "program_0",
-            "states": {
-                "enable": [
-                    2929,
-                    2884
-                ]
-            },
-            "uniforms": {
-                "u_ambient": "ambient",
-                "u_diffuse": "diffuse",
-                "u_emission": "emission",
-                "u_jointMat": "jointMat",
-                "u_modelViewMatrix": "modelViewMatrix",
-                "u_normalMatrix": "normalMatrix",
-                "u_projectionMatrix": "projectionMatrix",
-                "u_specular": "specular"
-            }
         }
     }
 }

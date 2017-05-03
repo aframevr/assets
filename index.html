@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>A-Frame Asset Uploader</title>
+    <title>Asset Uploader – A-Frame</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
@@ -11,16 +11,17 @@
         margin: 0;
         padding: 0;
       }
-      html, body {
+      html,
+      body {
         height: 100%;
       }
       html {
         font-size: 24px;
       }
       body {
-        background: rgb(239,45,94);
-        color: #fff;
-        font: normal 300 1.2rem/1.5 Fira Sans, sans-serif;
+        background: #fff;
+        color: #333;
+        font: 300 1.2rem/1.5 Fira Sans, sans-serif;
       }
       a {
         text-decoration: none;
@@ -39,7 +40,7 @@
       }
       .main {
         height: 100vh;
-        padding: 2vw 1vw;
+        padding: 6vw 1vw;
         width: 100%;
       }
       .masthead__wordmark {
@@ -48,17 +49,25 @@
         text-transform: uppercase;
         letter-spacing: 0.04em;
       }
+      .masthead__wordmark a {
+        color: #ef2d5e;
+        opacity: .8;
+      }
+      .masthead__wordmark a:hover {
+        opacity: 1;
+      }
       .wrap {
         margin: 0 auto;
         max-width: 800px;
       }
       .masthead__bracket {
-        color: rgba(255,255,255,.25);
+        color: rgba(0,0,0,.25);
       }
       .masthead__slogan {
         border-top: 2px solid rgba(255,255,255,.25);
+        color: #777;
         display: inline-block;
-        font-size: calc(0.5rem + 2vw);
+        font-size: calc(.75rem + 1.5vw);
         font-weight: 200;
         margin-top: 1rem;
         padding-top: 1rem;
@@ -66,11 +75,7 @@
       a,
       .btn,
       .masthead__slogan {
-        color: rgba(255,255,255,.75);
-        transition: 0.2s ease-in-out;
-      }
-      a:hover {
-        color: #fff;
+        transition: .15s all ease-in-out;
       }
       img {
         display: inline-block;
@@ -81,7 +86,8 @@
         right: 3vw;
       }
       .mozilla-logo {
-        opacity: 0.5;
+        filter: invert(1);
+        opacity: .5;
         transition: opacity 0.2s ease-in-out;
         width: calc(3rem + 6vw);
       }
@@ -97,19 +103,31 @@
       }
       .btn--upload {
         background-color: #1ad;
-        border-radius: 0.15rem;
-        color: rgba(255,255,255,0.8);
+        border-radius: .1rem;
+        border: 1px solid rgba(0,0,0,.25);
+        box-shadow: 0 -1px 0 rgba(255,255,255,.35) inset;
+        color: #fff;
         font-size: 0.8rem;
         margin: 1rem 0;
+        opacity: .8;
+        outline: none;
         padding: 0.5rem 1rem;
       }
       .btn--upload:hover {
-        background-color: #069;
-        color: #fff;
+        opacity: 1;
+      }
+      .btn--upload:active {
+        border-color: rgba(0,0,0,.35);
+        box-shadow: 0 -.5px 0 rgba(255,255,255,.15) inset,
+                    0 0 10px 0 rgba(0,0,0,.5) inset;
+        filter: grayscale(.15);
       }
       .btn[disabled],
       .btn[disabled]:hover {
-        background-color: #AAA
+        background-color: #aaa;
+      }
+      .btn[disabled] {
+        cursor: not-allowed;
       }
       .files {
         background: rgba(255,255,255,0.1);
@@ -141,19 +159,20 @@
         }
       }
     </style>
+    <meta name="description" content="A-Frame Asset Uploader">
   </head>
   <body>
     <main class="main flex copy--center">
       <div class="wrap">
         <div class="credits">
           <a href="https://www.mozilla.org/">
-            <img src="https://cdn.aframe.io/mozilla/img/logo-mozilla-white.svg"
+            <img src="mozilla/img/logo-mozilla-white.svg"
                  class="mozilla-logo" title="Mozilla" alt="Mozilla">
           </a>
         </div>
-        <h1 class="masthead__wordmark"><span class="masthead__bracket">&lt;</span>A-Frame<span class="masthead__bracket">&gt;</span></h1>
+        <h1 class="masthead__wordmark"><a href="https://aframe.io/"><span class="masthead__bracket">&lt;</span>A-Frame<span class="masthead__bracket">&gt;</span></a></h1>
         <p class="masthead__slogan">Asset Uploader</p>
-        <p><button id="uploadButton" class="btn btn--upload">Upload</button></p>
+        <p><button id="uploadButton" class="btn btn--upload">Upload files</button></p>
         <ul id="filesList" class="files"></ul>
       </div>
     </main>

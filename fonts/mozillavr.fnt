@@ -86,6 +86,8 @@ char id=38 x=0 y=333 width=65 height=66 xoffset=0 yoffset=26 xadvance=70 page=0 
 char id=47 x=419 y=198 width=36 height=89 xoffset=0 yoffset=14 xadvance=41 page=0 chnl=0 letter="/"
 char id=42 x=332 y=290 width=41 height=43 xoffset=0 yoffset=20 xadvance=46 page=0 chnl=0 letter="*"
 char id=43 x=129 y=206 width=53 height=60 xoffset=0 yoffset=29 xadvance=58 page=0 chnl=0 letter="+"
+char id=39 x=75 y=476 width=18 height=29 xoffset=0 yoffset=28 xadvance=23 page=0 chnl=0 letter="'"
+char id=96 x=75 y=476 width=18 height=29 xoffset=0 yoffset=28 xadvance=23 page=0 chnl=0 letter="`"
 char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=30 page=0 chnl=0 letter=" "
 char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=240 page=0 chnl=0 letter="	"
 

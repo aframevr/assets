@@ -3,8 +3,7 @@
 Assets (e.g,, models, images, data files, sounds) used in various A-Frame
 examples and boilerplates.
 
-These assets are hosted at `https://cdn.aframe.io/` with CORS enabled. They
-are backed by Cloudflare and Fastly.
+These assets are hosted at `https://cdn.aframe.io/` with CORS enabled.
 
 ## Referencing an Asset
 
@@ -20,7 +19,3 @@ would use `https://cdn.aframe.io/360-video-boilerplate/video/city.mp4`.
  <a-videopshere src="#cityVideo"></a-videosphere>
 </a-scene>
 ```
-
-## License
-
-We are currently working on specifying licenses for each asset.

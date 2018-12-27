@@ -28,7 +28,7 @@
     },
     "materials":[{
         "map":"57C8C518-0CD0-3866-88FE-BBB14474EBD7",
-        "blending":"NormalBlending",
+        "blending":1,
         "color":16777215,
         "depthTest":true,
         "uuid":"21026DD8-B660-3F93-8BC4-D8B689358889",

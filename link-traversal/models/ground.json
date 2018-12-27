@@ -41,7 +41,7 @@
     "geometries":[{
         "type":"Geometry",
         "materials":[{
-            "blending":"NormalBlending",
+            "blending":1,
             "mapDiffuseAnisotropy":1,
             "mapDiffuse":"groundPattern.png",
             "mapDiffuseWrap":["RepeatWrapping","RepeatWrapping"],

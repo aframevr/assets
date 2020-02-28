@@ -1,0 +1,20 @@
+{
+  "name": "aframe-assets",
+  "version": "1.0.4",
+  "description": "Assets used in various A-Frame examples and boilerplates.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aframevr/assets.git"
+  },
+  "keywords": [
+    "aframe"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aframevr/assets/issues"
+  },
+  "homepage": "https://github.com/aframevr/assets#readme"
+}
